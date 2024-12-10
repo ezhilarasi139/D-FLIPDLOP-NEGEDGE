@@ -2,13 +2,11 @@
 
 **AIM:**
 
-To implement  D flipflop using verilog and validating their functionality using their functional tables
+To implement  D flipflop using verilog and validating their functionality using their functional tables.
 
 **SOFTWARE REQUIRED:**
 
 Quartus prime
-
-**THEORY**
 
 **D Flip-Flop**
 
@@ -26,19 +24,38 @@ Therefore, D flip-flop always Hold the information, which is available on data i
 
 Next state of D flip-flop is always equal to data input, D for every positive transition of the clock signal. Hence, D flip-flops can be used in registers, shift registers and some of the counters.
 
-**Procedure**
-
-/* write all the steps invloved */
 
 **PROGRAM**
 
-/* Program for flipflops and verify its truth table in quartus using Verilog programming. Developed by: RegisterNumber:
-*/
+module dflipneg (d, clk, rst, q);
+
+  input d, clk, rst;
+  
+  output reg q;
+
+  always @(negedge clk or posedge rst) begin
+  
+    if (rst)
+    
+      q <= 0; // Reset the flip-flop
+      
+    else
+    
+      q <= d; // D input is passed to Q on the negative clock edge
+      
+  end
+  
+endmodule
+
+
 
 **RTL LOGIC FOR FLIPFLOPS**
 
+![Screenshot (38)](https://github.com/user-attachments/assets/a8a2a1b8-46f3-4c9f-bd1b-0c2e822f9928)
 
 **TIMING DIGRAMS FOR FLIP FLOPS**
 
+![Screenshot (39)](https://github.com/user-attachments/assets/29e4106d-8739-40ce-a25f-1027e8cf6acb)
 
 **RESULTS**
+ D flipflop using verilog and validating their functionality using their functional tables is verified.
