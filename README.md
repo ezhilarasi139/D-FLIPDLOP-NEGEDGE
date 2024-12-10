@@ -26,7 +26,7 @@ Next state of D flip-flop is always equal to data input, D for every positive tr
 
 
 **PROGRAM**
-
+```
 module dflipneg (d, clk, rst, q);
 
   input d, clk, rst;
@@ -46,6 +46,7 @@ module dflipneg (d, clk, rst, q);
   end
   
 endmodule
+```
 
 Developed by Ezhilarasi.N Register No: 24901074
 
