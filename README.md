@@ -49,13 +49,20 @@ endmodule
 
 Developed by Ezhilarasi.N Register No: 24901074
 
+
+
 **RTL LOGIC FOR FLIPFLOPS**
 
 ![Screenshot (38)](https://github.com/user-attachments/assets/a8a2a1b8-46f3-4c9f-bd1b-0c2e822f9928)
 
+
+
+
 **TIMING DIGRAMS FOR FLIP FLOPS**
 
 ![Screenshot (39)](https://github.com/user-attachments/assets/29e4106d-8739-40ce-a25f-1027e8cf6acb)
+
+
 
 **RESULTS**
  D flipflop using verilog and validating their functionality using their functional tables is verified.
