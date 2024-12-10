@@ -47,8 +47,6 @@ module dflipneg (d, clk, rst, q);
   
 endmodule
 
-
-
 **RTL LOGIC FOR FLIPFLOPS**
 
 ![Screenshot (38)](https://github.com/user-attachments/assets/a8a2a1b8-46f3-4c9f-bd1b-0c2e822f9928)
